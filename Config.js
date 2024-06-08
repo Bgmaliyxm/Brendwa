@@ -3,21 +3,21 @@ const chalk = require('chalk');
 require('dotenv').config();
 
 //contact details
-global.ownernumber = [ process.env.OWNER_NUMBER || "919931122319"],
-global.ownername = process.env.OWNER_NAME || "💙𓆩‎✘AʏᴜSʜ✘𓆪_✰",
+global.ownernumber = [ process.env.OWNER_NUMBER || "9940555647159"],
+global.ownername = process.env.OWNER_NAME || "Bgmaliy",
 global.ytname = "YT: AyushBotz.inc"
-global.socialm = "GitHub: Ayushpandey023"
-global.location = "Indian"
+global.socialm = "GitHub: BGMALIY"
+global.location = "Baku"
 
-global.botname = process.env.BOTNAME || "𝐌𝐀𝐑𝐈𝐀-𝐌𝐃",//name of the bot
+global.botname = process.env.BOTNAME || "BrendWa", //name of the bot
 
 //sticker details
-global.stickername = process.env.STICKER || "💙𓆩‎✘AʏᴜSʜ✘𓆪_✰",
-global.packname = 'Sticker By'
-global.author = process.env.AUTHOR || "💙𓆩‎✘AʏᴜSʜ✘𓆪_✰",
+global.stickername = process.env.STICKER || "BrendWa",
+global.packname = 'Sticker By BrendWa' //updated sticker pack name
+global.author = process.env.AUTHOR || "BrendWa✰",
 //console view/theme
 global.themeemoji = '🧩'
-global.wm = "Ayush botz inc."
+global.wm = "BrendWa."
 
 //theme link
 global.link = 'https://whatsapp.com/channel/0029VaImo5ZG3R3qjKOdyr1I'
@@ -35,8 +35,6 @@ global.autobio = false //auto update bio
 global.anti212 = true //auto block +212
 global.autoread_status = false //auto view status/story
 
-
-
 //reply messages
 global.mess = {
     done: '🍭 *Here you go, darling!* ',
@@ -51,14 +49,13 @@ global.mess = {
 }
 
 module.exports = {
-ownernumber: global.ownernumber,
-ownername: global.ownername,
-sessionId: process.env.id,
-AUTO_BLOCK : process.env.PM_BLOCKER,
-STATUS_SAVER : "true",
-ANTI_BOT:"true",
+    ownernumber: global.ownernumber,
+    ownername: global.ownername,
+    sessionId: process.env.id,
+    AUTO_BLOCK : process.env.PM_BLOCKER,
+    STATUS_SAVER : "true",
+    ANTI_BOT:"true",
 }
-
 
 global.thumb = fs.readFileSync('./Gallery/thumb.jpg')
 
